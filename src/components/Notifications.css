@@ -1,0 +1,91 @@
+section {
+  background-color: #f7fafd;
+}
+.whole-container {
+  background-color: white;
+  width: 500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+.nav-part {
+  display: grid;
+  grid-template-columns: 300px 200px;
+}
+.notifications-text {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.number {
+  color: white;
+  background-color: #0a327b;
+  font-size: 16px;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+.main-part {
+  display: flex;
+  margin-bottom: 10px;
+}
+.main-part:hover {
+  background-color: #f7fafd;
+}
+.red-circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: red;
+  margin-top: 22px;
+}
+.content-notification {
+  display: flex;
+}
+.first-statement {
+  display: flex;
+  line-break: 2px;
+}
+.black-bold {
+  font-weight: bold;
+  font-size: 14px;
+  padding-right: 3px;
+  padding-left: 5px;
+}
+.blue-bold {
+  font-weight: bold;
+  font-size: 14px;
+  color: #0a327b;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.gray-bold {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(98, 97, 97);
+}
+.light-gray {
+  color: #5e6778;
+  padding-left: 5px;
+}
+.normal-text {
+  font-weight: normal;
+}
+img {
+  height: 40px;
+  width: 40px;
+}
+
+.border-message {
+  border: 1px solid #f7fafd;
+  width: 400px;
+  height: 50px;
+  line-height: 15px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin: auto;
+  font-size: 14px;
+}
+.border-message:hover {
+  background-color: #f7fafd;
+  color: #5e6778;
+}
